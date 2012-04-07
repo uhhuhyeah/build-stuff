@@ -1,4 +1,1 @@
-artifacts/
-logs/
-output-long/
-output/
+/docroot/*.html

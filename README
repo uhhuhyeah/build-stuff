@@ -1,0 +1,6 @@
+Setup
+-----
+
+You must install Redcarpet!:
+
+    gem install redcarpet
