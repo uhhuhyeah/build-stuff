@@ -1,0 +1,5 @@
+all:
+	dexy
+
+
+.PHONY: all
