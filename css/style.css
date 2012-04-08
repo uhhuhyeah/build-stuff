@@ -72,6 +72,12 @@ td { vertical-align: top; }
 .highlight .lineno {
     color: #333;
 }
+.author-note {
+    color: #333;
+    background: #ddd;
+    font-style: oblique;
+    padding: 3px;
+}
 
 
 
