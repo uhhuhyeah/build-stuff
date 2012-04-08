@@ -1,6 +1,11 @@
-Setup
+SETUP
 -----
 
-You must install Redcarpet!:
+    gem install jekyll
+    pip install pygments
 
-    gem install redcarpet
+
+BUILD
+-----
+
+    make
