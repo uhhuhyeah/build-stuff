@@ -1,0 +1,42 @@
+---
+# vim:filetype=liquid
+layout: chapter
+title: Chapter 2 - Fixing the Internet
+previous: chapter-01
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+  Now we'll start down the path toward User Scripts.
+</p>
+
+<h2>Fixing the appearance of a website.</h2>
+
+<p>
+  Go to <a href="http://www.modcloth.com">modcloth.com</a>
+</p>
+
+<p>
+  Open up the Console.
+</p>
+
+<p>
+  Type in the following:
+</p>
+{% highlight javascript linenos %}
+head = document.getElementsByTagName('head')[0];
+newStyle = document.createElement('style');
+newStyle.type = 'text/css';
+newStyle.textContent = 'a { background: #000; padding: 10px }';
+head.appendChild(newStyle);
+{% endhighlight %}
+
+<p>
+  That probably looks pretty bad.
+</p>
+
+<p>
+  Do something more sensible.
+</p>
+
+{% nav %}
