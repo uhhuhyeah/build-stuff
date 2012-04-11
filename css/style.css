@@ -65,21 +65,45 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 
-.highlight {
-    padding: 10px;
-    border: 1px dashed #777;
+/* ============================================================ */
+#main-content, header, footer {
+    max-width: 996px;
+    margin: 9px auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
+
+#main-title {
+    text-shadow: 1px 3px 3px #bbb;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+    border-bottom: 1px dotted #777;
+}
+
+.highlight {
+    padding: 9px;
+    border: 1px dashed #777;
+    border-radius: 6px;
+}
+
 .highlight .lineno {
     color: #333;
 }
+
 .author-note {
     color: #333;
     background: #ddd;
     font-style: oblique;
     padding: 3px;
+    border-radius: 6px;
 }
-
-
+/* ============================================================ */
 
 
 
