@@ -1,17 +1,75 @@
 ---
 # vim:filetype=liquid
 layout: chapter
-title: Chapter 00 - Setting up
+title: Chapter 0 - Setting up
 previous: index
 next: chapter-01
 ---
 <p class="author-note">This is the part where you download Google Chrome.</p>
 
-<h2>Step 1 - Download Google Chrome.</h2>
+<h2 id="step-1-header">Step 1 - Download Google Chrome.</h2>
+<script type="text/javascript">
+  $(function() {
+      if (navigator.userAgent.match(/Chrome/)) {
+          $('#download-chrome').hide();
+          $('#already-have-chrome').show();
+          $('#step-1-header').css({'text-decoration': 'line-through'});
+      }
+  });
+</script>
+<div id="download-chrome">
+  <p>
+    Go to the <a href="https://www.google.com/chrome" target="new">Google Chrome
+    download page</a> and click on the big button that says &ldquo;Download
+    Google Chrome&rdquo;.
+  </p>
+  <p>
+    Follow the instructions for installing Google Chrome to your computer.
+  </p>
+  <p>
+    Launch Google Chrome.
+  </p>
+</div>
+<p id="already-have-chrome" style="display:none;">
+  You already have Google Chrome!  You're awesome!  Please proceed to
+  <em>Step 2</em>.
+</p>
 
 <h2>Step 2 - Open the Console.</h2>
+<p>
+  Google Chrome has this awesome thing called the <em>Console</em> that can be
+  used to interact with all kinds of stuff.  It's a fully-capable tool that
+  professional developers regularly use to develop, test, and debug.
+</p>
+<p>
+  To open the <em>Console</em>, click on the &ldquo;wrench&rdquo; icon in the
+  top corner of Google Chrome.
+</p>
+<p>
+  Now hover over &ldquo;Tools&rdquo; and select &ldquo;JavaScript
+  Console&rdquo;.
+</p>
+<p>
+  You should see the <em>Console</em> pop open either as a separate window or
+  as a little sub-window within your main browser window.
+</p>
+<p class="fancy-pants">
+  If you're a real fancy pants, you may have noticed there is a keyboard shortcut
+  available for opening the <em>Console</em>.  Use it if you want to.  Now your
+  pants are even more fancy.
+</p>
 
 <h2>Step 3 - Make sure you know how to open Google Chrome and open the console.</h2>
+<p>
+  Seriously, you need to make sure you know how to open Google Chrome.  With
+  any luck, part of the installation process placed a launcher somewhere that's
+  easy to see.
+</p>
+<p>
+  This is not a joke.  Close your current Google Chrome browser session and
+  make sure you know how to get it back open.  Then make sure you know how to open
+  the <em>Console</em>.
+</p>
 
 <p class="author-note">
   Perhaps the first chapter should be about familiarization with the Chrome

@@ -96,6 +96,14 @@ td { vertical-align: top; }
     color: #333;
 }
 
+.fancy-pants {
+    color: #333;
+    background: #f0f0f0;
+    font-style: oblique;
+    padding: 9px;
+    border: 1px dashed #ddd;
+}
+
 .author-note {
     color: #333;
     background: #ddd;
