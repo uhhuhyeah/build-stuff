@@ -74,7 +74,7 @@ td { vertical-align: top; }
 }
 
 #main-title {
-    text-shadow: 1px 3px 3px #bbb;
+    text-shadow: 0 1px 0 #bbb;
 }
 
 .nav {
@@ -108,8 +108,9 @@ td { vertical-align: top; }
     color: #333;
     background: #ddd;
     font-style: oblique;
-    padding: 3px;
+    padding: 0.5em;
     border-radius: 6px;
+    text-shadow: 0 1px 0 #eee;
 }
 /* ============================================================ */
 
