@@ -1,3 +1,5 @@
 /docroot/*.html
 .rbenv-version
 /_site
+*.swp
+.DS_Store
