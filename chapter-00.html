@@ -10,7 +10,7 @@ next: chapter-01
 <h2 id="step-1-header">Step 1 - Download Google Chrome.</h2>
 <script type="text/javascript">
   $(function() {
-      if (navigator.userAgent.match(/Chrome/)) {
+      if (/chrome/i.test(navigator.userAgent)) {
           $('#download-chrome').hide();
           $('#already-have-chrome').show();
           $('#step-1-header').css({'text-decoration': 'line-through'});
